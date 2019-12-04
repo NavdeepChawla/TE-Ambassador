@@ -160,7 +160,7 @@ public class LogInActivity extends AppCompatActivity implements View.OnClickList
         }
         else
         {
-            View view= findViewById(R.id.drawer_layout);
+            View view= findViewById(R.id.loginConstraintLayout);
             Snackbar.make(view,"Press the back button once again to close the application.",Snackbar.LENGTH_LONG).show();
             backButtonCount++;
         }
