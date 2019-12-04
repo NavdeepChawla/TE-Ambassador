@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "832378515746-vao7g2hrc7a1cavhbg19f6vms45rriem.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.adgvit.teambassador",
+            "certificate_hash": "4a1012dbea99535124a58040dbbd19a2a0a37d3e"
+          }
+        },
+        {
           "client_id": "832378515746-1jp4gm4j653jvmup2d36kk6tj9lkq19b.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

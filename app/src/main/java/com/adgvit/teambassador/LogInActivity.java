@@ -160,7 +160,8 @@ public class LogInActivity extends AppCompatActivity implements View.OnClickList
         }
         else
         {
-            Toast.makeText(this, "Press the back button once again to close the application.", Toast.LENGTH_SHORT).show();
+            View view= findViewById(R.id.drawer_layout);
+            Snackbar.make(view,"Press the back button once again to close the application.",Snackbar.LENGTH_LONG).show();
             backButtonCount++;
         }
     }
